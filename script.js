@@ -34,11 +34,10 @@ function setNumber(Number) {
     }
 }
 
-function clear() {
-firstNumber = 0;
-secondNumber = 0;
-selectedNumber = "first";
-document.getElementById("display").value = " ";
+function clearResult() {
+    firstNumber = 0;
+    secondNumber = 0;
+    selectedNumber = "first";
+    document.getElementById("display").value = " ";
 }
-
 
