@@ -20,6 +20,12 @@ function setEqual() {
         result = firstNumber * secondNumber;
     else if (operation == "Division")
         result = firstNumber / secondNumber;
+    firstNumber = result;
+    secondNumber = 0;
+
+
+
+
     document.getElementById("display").value = result;
 }
 
